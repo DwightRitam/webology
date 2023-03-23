@@ -98,6 +98,9 @@ const sr = ScrollReveal({
 })
 
 sr.reveal('.home__data , .list__container, .join__content, .footer__container')
+
+sr.reveal('.swiper-wrapper ')
+
 sr.reveal('.home__img' , {origin: 'bottom'})
 sr.reveal('.health__imgage, .routine__images, .follow__img-3' , {origin: 'left'})
 sr.reveal('.health__data, .routine__data, .follow__img-4' , {origin: 'right'})

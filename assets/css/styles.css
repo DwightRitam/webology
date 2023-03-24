@@ -231,19 +231,19 @@ body.dark-theme {
 }
 
 .nav__logo img {
-  /* font-size: var(--h2-font-size);
-  font-family: var(--second-font);
-  font-weight: var(--font-medium);
-
-
-background-color: #4158D0;
-background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-
-  -webkit-background-clip: text;
-  color: transparent; */
+ 
   width: 20vw;
   height: 20vh;
   margin-top: 25px;
+}
+@media screen and (max-width:500px) {
+  
+  .nav__logo img {
+   
+    width: 30vw;
+    height: 30vh;
+    margin-top: 25px;
+  }
 }
 
 
